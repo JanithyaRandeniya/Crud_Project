@@ -30,7 +30,8 @@ export default function RootLayout({
         <div className="Max-w-3xl mx-100 text-slate-800">
           <header className="p-6 border-b flex items-center justify-between bg-purple-400 
           rounded-bl-lg rounded-br-lg">
-            <a className="text-2xl font-bold" href={"/"}> Product Details </a>
+            <a className="text-2xl font-bold" href={"/"}> <p> Our Product Details </p> 
+            <p className="font-normal">  NJ PVT(LTD) </p> </a>
             <a className="bg-slate-100 grid place-items-center py-2 px-4 rounded-full font-bold shadow-md"  href={'/create'}> Add new Product </a>
 
           </header>
